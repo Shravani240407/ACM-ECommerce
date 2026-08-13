@@ -3,7 +3,7 @@
 Built for the ACM Junior Webmaster Recruitment task.
 
 ## Key Features
-* **Expanded Catalog:** 30 pre-seeded products across 5 categories (`Electronics`, `Apparel`, `Accessories`, `Home`, `Fitness`).
+* **Expanded Catalog:** 40 pre-seeded products across 5 categories (`Electronics`, `Apparel`, `Accessories`, `Home`, `Fitness`).
 * **Interactive Cart:** Stock management with total price calculation and coupon handling (`ACM10`).
 * **Authentication:** User registration & JWT-authenticated login.
 * **Non-API Wishlist:** Purely client-side wishlist using `localStorage`.
