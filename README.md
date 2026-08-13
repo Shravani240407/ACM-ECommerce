@@ -1,18 +1,42 @@
-# Full-Stack E-Commerce Web Application
+# 🛒 Full-Stack E-Commerce Web Application
 
-Built for the ACM Junior Webmaster Recruitment task.
+> Built as part of the **ACM Junior Webmaster Recruitment** task.
 
-## Key Features
-* **Expanded Catalog:** 40 pre-seeded products across 5 categories (`Electronics`, `Apparel`, `Accessories`, `Home`, `Fitness`).
-* **Interactive Cart:** Stock management with total price calculation and coupon handling (`ACM10`).
-* **Authentication:** User registration & JWT-authenticated login.
-* **Non-API Wishlist:** Purely client-side wishlist using `localStorage`.
-* **Admin Dashboard:** Product CRUD control panel and sales analytics.
+---
 
-## Quick Start Guide
+## 🛠️ Tech Stack
 
-1. Stop any currently running instance in your terminal using `Ctrl + C`.
-2. Delete the old database file (`database.sqlite`) to seed the 30 new products cleanly.
-3. Start the application:
+### **Frontend**
+* **HTML5 & CSS3:** Modern, responsive layout built using CSS Grid and Flexbox.
+* **JavaScript (ES6+):** Dynamic DOM manipulation, state management, and async API integration.
+* **Web Storage API:** `localStorage` implementation for non-API persistence (e.g., client-side wishlist).
+
+### **Backend & Database**
+* **Node.js:** JavaScript runtime environment.
+* **Express.js:** Lightweight web application framework for RESTful API routing and middleware management.
+* **JSON Web Tokens (JWT):** Secure user authentication and stateless session control.
+* **SQLite:** File-based relational database for seamless local development and automated seeding.
+
+---
+
+## ✨ Key Features
+
+* 📦 **Expanded Catalog:** 30 pre-seeded products across 5 distinct categories (`Electronics`, `Apparel`, `Accessories`, `Home`, `Fitness`).
+* 🛒 **Interactive Cart:** Real-time stock validation, automated total price calculation, and promotional coupon support.
+* 🔐 **Authentication:** Secure user registration, credential validation, and JWT-authenticated login state.
+* 💖 **Client-Side Wishlist:** Purely frontend wishlist powered by `localStorage` without requiring database overhead.
+* 📊 **Admin Dashboard:** Full product CRUD (Create, Read, Update, Delete) management panel and key sales analytics.
+
+---
+
+## 🚀 How to Run the Application
+
+### **Prerequisites**
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### **Quick Start Guide**
+
+1. **Stop existing instances:**  
+   If the application is currently running, terminate it in your terminal by pressing:
    ```bash
-   npm start
+   Ctrl + C
